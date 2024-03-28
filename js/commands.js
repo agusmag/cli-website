@@ -9,7 +9,7 @@ banner = [
     '██║╚██╔╝██║██╔══██║██║░░╚██╗██╔══██║██╔══██╗██║░░░██║░╚═══██╗',
     '██║░╚═╝░██║██║░░██║╚██████╔╝██║░░██║██║░░██║╚██████╔╝██████╔╝',
     '╚═╝░░░░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═════╝░',
-    '░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░',
+    '░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░© 2024',
     "<br>",
     '<span class="info">Welcome to this friendly CLI Website..</span>',
     '<span class="info">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="info">.</span>',
@@ -35,7 +35,8 @@ social = [
           
 projects = [
     "<br>",
-    "Let's connect and dive into the world of coding, gaming, and everything in between. 🚀 Drop me a message or an email, and let's spark some awesome conversations! 🌟",
+    "Let's connect and dive into the world of coding, gaming, and everything in between.",
+    "🚀 Drop me a message or an email with the <span class=\"command\">'email'</span> command, and let's spark some awesome conversations! 🌟",
     'If you want to know more about my career or personal projects try with the <span class="command">\'social\'</span><span class="info"> command.</span>',
     "<br>"
 ]

@@ -29,7 +29,7 @@ function enterKey(e) {
   } else if (e.keyCode == 13) {
     commands.push(command.innerHTML);
     git = commands.length;
-    printLine("guest@magarus.com.ar:~$ " + command.innerHTML, "no-animation", 0);
+    printLine("guest@magarus.com.ar:~> " + command.innerHTML, "no-animation", 0);
     selectCommand(command.innerHTML.toLowerCase());
     command.innerHTML = "";
     textarea.value = "";
@@ -91,8 +91,10 @@ function selectCommand(cmd) {
       // Jokes
       case "ls":
         printLine("This is not a real Terminal 😂", "info", 0);
+        break;
       case "sudo":
         printLine("Are you trying to hack the site? 🤨", "info", 0);
+        break;
       default:
         printLine("<span class=\"error\">command not found: " + cmd + ". For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
         break;

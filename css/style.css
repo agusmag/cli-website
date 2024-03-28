@@ -69,7 +69,7 @@ b {
 }
 #prompt::before {
     color: #FFEDCB;
-    content: "guest@magarus.com.ar:~$";
+    content: "guest@magarus.com.ar:~>";
 }
 
 @keyframes show {
