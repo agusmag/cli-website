@@ -24,7 +24,6 @@ command.innerHTML = textarea.value;
 
 function enterKey(e) {
   e = e || event // IE
-  map[e.keyCode] = e.type == 'keydown';
   if (e.keyCode == 181) {
     document.location.reload(true);
   } else if (e.keyCode == 13) {
